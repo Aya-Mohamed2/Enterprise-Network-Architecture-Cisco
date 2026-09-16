@@ -47,3 +47,4 @@ The topology is structured around a collapsed core model consisting of an edge r
 ```cisco
 access-list 100 deny ip 192.168.20.0 0.0.0.255 host 192.168.10.50
 access-list 100 permit ip any any
+```
