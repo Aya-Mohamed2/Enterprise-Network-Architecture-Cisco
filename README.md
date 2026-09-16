@@ -8,7 +8,7 @@ This project demonstrates the design and deployment of a multi-department enterp
 ## 🗺️ Network Architecture & Topology
 The topology is structured around a collapsed core model consisting of an edge routing device, a managed Layer-2 distribution switch, departmental subnets, and an isolated internal server.
 
-> 💾 **Download Lab Simulation File:** [Enterprise_Secure_VLAN_Architecture.pkt](./Enterprise_Secure_VLAN_Architecture.pkt)
+> 💾 **Packet Tracer Topology File:** [Download Enterprise_Secure_VLAN_Architecture.pkt](https://github.com/Aya-Mohamed2/Enterprise-Network-Architecture-Cisco/raw/main/Enterprise_Secure_VLAN_Architecture.pkt)
 
 ### Addressing Scheme:
 | Segment / Department | VLAN ID | Subnet | Gateway | Allocation Method |
