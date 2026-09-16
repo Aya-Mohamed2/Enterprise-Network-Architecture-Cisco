@@ -8,7 +8,9 @@ This project demonstrates the design and deployment of a multi-department enterp
 ## 🏗️ Network Architecture & Topology
 The topology is structured around a collapsed core model consisting of an edge routing device, a managed Layer-2 distribution switch, departmental subnets, and an isolated internal server.
 
-![Network Topology](01_topology_diagram.png)
+<p align="center">
+  <img src="01_topology_diagram.png" width="750" alt="Network Topology">
+</p>
 
 ### Addressing Scheme:
 | Segment / Department | VLAN ID | Subnet | Gateway | Allocation Method |
@@ -32,7 +34,9 @@ The topology is structured around a collapsed core model consisting of an edge r
 * Configured dedicated DHCP pools (`IT_POOL` and `HR_POOL`) directly on the router.
 * Excluded default gateways and the dedicated server IP from the address lease pool to prevent addressing conflicts.
 
-![DHCP Verification](02_dhcp_verification.png)
+<p align="center">
+  <img src="02_dhcp_verification.png" width="600" alt="DHCP Verification">
+</p>
 
 ### 4. Security Access Control List (Extended ACL)
 * Enforced an **Extended Access Control List (ACL 100)** applied inbound on the HR sub-interface.
